@@ -73,3 +73,101 @@
     position: relative;
     top: 3px;
 }
+
+.movies{
+    margin-top: 5px;
+    background-color: rgb(218, 218, 218);
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 1350;
+}
+
+.movie{
+    margin-left: 1010px;
+    margin-top: -55px;
+}
+
+.w1{
+    margin-top: -160px;
+    margin-left: 720px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18.5px;
+
+}
+
+.w1 hr{
+    margin-left: -40px;
+    width: 300px;
+}
+
+.w1 div{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -200px;
+    margin-top: -50px;
+    color: black;
+    background-color: white;
+    width: 95px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hr1{
+    margin-top: 75px;
+    height: 2.5px;
+    background-color: black;
+}
+
+.mane{
+    color:black;
+    background-color:  rgb(218, 218, 218);
+    text-decoration: none;
+}
+
+.mane:hover{
+    color: tomato;
+}
+
+.mane:active{
+    color: black;
+    position: relative;
+    bottom: 3px;
+}
+
+.mov{
+    margin-left: 10px;
+    margin-top: -15px;
+}
+
+.t1{
+    margin-top: -450px;
+    margin-left: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.men{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+    background-color: rgb(218, 218, 218);
+    width: 180px;
+}
+.men img{
+    width: 180px;
+}
+.men a{
+    margin-left: 17px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.men a:hover{
+    color: red;
+}
+
+.men a:active{
+    position: relative;
+    top: 3px;
+}
