@@ -34,7 +34,6 @@
 
 .info h2{
     margin-left: 60px;
-    
     margin-top: 30px;
     font-size: 14px;
     background-color:rgba(4, 0, 255, 0.959);
@@ -77,10 +76,15 @@
 
 .movies{
     margin-top: 5px;
-    background-color: rgb(218, 218, 218);
     margin-left: 10px;
     margin-right: 10px;
-    height: 1350;
+
+}
+
+.movies img{
+    width: 700px;
+    margin-top: 20px;
+    margin-left: 250px;
 }
 
 .movie{
@@ -120,55 +124,51 @@
 
 .mane{
     color:black;
+    margin-left: 500px;
     background-color:  rgb(218, 218, 218);
     text-decoration: none;
 }
 
 .mane:hover{
-    color: tomato;
+    position: relative;
+    bottom: 10px;
 }
 
-.mane:active{
+.movies img:hover{
+    position: relative;
+    bottom: 10px;
+}
+
+.movies img:active{
     color: black;
     position: relative;
-    bottom: 3px;
+    top: 10px;
 }
 
 .mov{
     margin-left: 10px;
     margin-top: -15px;
-}
-
-.t1{
-    margin-top: -450px;
-    margin-left: 900px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
 }
+.mov img{
+    margin-left: 800px;
+    margin-top: -450px;
+}
 
-.men{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    margin-top: 15px;
-    margin-left: 10px;
-    background-color: rgb(218, 218, 218);
-    width: 180px;
+.mov img{
+    margin: 0;
+    margin-top: -450px;
+    margin-left: 850px;
 }
-.men img{
-    width: 180px;
-}
-.men a{
-    margin-left: 17px;
-    margin-top: 5px;
-    text-decoration: none;
-    color: black;
-}
+
 
 .men a:hover{
-    color: red;
+    position: relative;
+    left: 5px;
 }
 
 .men a:active{
     position: relative;
-    top: 3px;
+    top: 10px;
 }
